@@ -1,1 +1,42 @@
-/* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+ body{
+   height: 100vh;
+ }
+
+ header{
+     height: 30%;
+ }
+.fullHeader{
+    height: 100%;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 2%;
+}
+
+.firstNav{
+    display: flex;
+    padding-left: 9%;
+}
+
+.firstNav a{
+    width:15%;
+    height:8%;
+    border: 5px solid black;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
