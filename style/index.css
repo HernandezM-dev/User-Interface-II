@@ -31,7 +31,7 @@ h1 {
     padding-left: 9%;
 }
 
-.firstNav button{
+.firstNav a{
     width:15%;
     height:8%;
     border: 5px solid black;
@@ -66,12 +66,13 @@ h1 {
     font-size: 50px;
 }
 
-.midSection button {
+.midSection a {
     background-color: black;
+    text-align: center;
+    font-size: 40px;
     color: white;
     width: 30%;
-    height: 20%;
-    border: 2px solid white;
+    height: 15%;
     padding: .5%
 }
 
@@ -134,12 +135,14 @@ background-color: black ;
 .contact h2{
     color: white;
     /* padding-top: 5%; */
-    font-size: 30px;
+    font-size: 50px;
 }
 
-footer button{
+footer a{
+    text-align: center;
     background-color: black;
     color: white;
+    font-size: 30px;
     width: 15%;
     border: 2px solid white;
     padding: 1%
