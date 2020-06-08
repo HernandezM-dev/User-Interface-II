@@ -60,6 +60,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
+    text-align: left;
   
 }
 
@@ -83,7 +84,7 @@ h1 {
 
 .midSection p{
     font-size: 30px;
-    text-align: left;
+    /* text-align: left; */
 }
 
 span{
@@ -171,4 +172,71 @@ footer a{
     
 .socials a img{
     border-radius: 15%;
+}
+
+
+@media(max-width: 800px){
+    body{
+    }
+
+    header {
+        text-align: center;
+    }
+    .firstNav{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 30% 0 30%;
+    }
+
+    .firstNav a{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .midSection{
+        flex-direction: column;
+        align-items: center;
+    }
+    .midSection div{
+        text-align: center;
+        padding: 1%;
+    }
+    .midSection a{
+        margin: 0 30% 0 30%;
+        /* padding: 10 */
+    }
+    .gallery{
+        flex-direction: row;
+    }
+    .gallery div{
+        flex-direction: column;
+    }
+    
+    footer a{
+        width: 30%;
+    }
+    
+}
+
+@media(max-width: 500px){
+    body{
+    }
+    .firstNav a{
+        padding: 0;
+    }
+    .midSection img{
+        display: none;
+    }
+    footer a{
+        width: 40%;
+    }
+    .socials{
+        justify-content: center;
+    }
+    .socials a {
+        height: 20%;
+        width: 20%;
+        border-radius: 15%;
+    }
+
 }
